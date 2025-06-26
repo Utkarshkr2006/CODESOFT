@@ -12,4 +12,3 @@ Welcome to my Python project repository! This collection includes simple and use
 
 3. Password_Generator.py  
    A random password generator to create strong passwords with letters, numbers, and symbols.
-
