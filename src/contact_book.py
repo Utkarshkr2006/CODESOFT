@@ -17,7 +17,7 @@ while True:
         else:
             age=int(input("Enter your age: "))
             email=input("Enter your email address: ")
-            mobile_no=int(input("Enter your mobile number: "))
+            mobile_no=input("Enter your mobile number: ")
             contacts[name]={"age": age, "email": email, "mobile number": mobile_no }
             print(f"Contact name {name} has been created successfully.")
 
@@ -26,7 +26,7 @@ while True:
         if name in contacts:
             contact=contacts[name]
             #print(f"Name: {name}, age: {age}, email: {email}, mobile number: {mobile_no}")
-            print(f"Name: {name}, Age: {contact["age"]}, Email: {contact["email"]}, Mobile Number: {contact["mobile number"]}")
+            print(f"Name: {name}, Age: {contact['age']}, Email: {contact['email']}, Mobile Number: {contact['mobile number']}")
 
         else:
             print("Contact not found!")
