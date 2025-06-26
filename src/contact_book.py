@@ -56,7 +56,7 @@ while True:
         found= False
         for name, contact in contacts.items():
             if search_name.lower() in name.lower():
-                print(f"Found: Name: {name}, Age: {contact['age']}, Email: {contact['email']}, Mobile Number: {contact['mobile number']}")
+                print(f"Found - Name: {name}, Age: {contact['age']}, Email: {contact['email']}, Mobile Number: {contact['mobile number']}")
                 found= True
         if not found:
             print("No contact found with that name")

@@ -8,7 +8,7 @@ symbols="!@#$%^&*"
 password_length=int(input("Enter password length: "))
 
 if password_length<6:
-    print("\nWeak password !, password should at least 6 character long.\n")
+    print("\nWeak password!, password should at least 6 character long.\n")
 else:
     password=[random.choice(upper_case),
      random.choice(lower_case),
